@@ -86,9 +86,12 @@ const raceCar = new RaceCar({
   acceleration: 20
 });
 
+/*
 console.log(car1);
 console.log(car2);
+*/
 
+/*
 car1.displayInfo();
 car1.go();
 car1.go();
@@ -117,3 +120,4 @@ raceCar.openTrunk();
 raceCar.displayInfo();
 raceCar.brake();
 raceCar.displayInfo();
+*/
