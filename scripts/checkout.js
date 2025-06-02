@@ -6,7 +6,7 @@ import { loadCart, loadCartFetch } from '../data/cart.js';
 // import '../data/cart-class.js'
 import '../data/car.js';
 //import '../data/backend-practice.js';
-
+//--
 async function loadPage() {
   try {
     // throw 'error1';
