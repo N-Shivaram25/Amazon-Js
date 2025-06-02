@@ -65,7 +65,7 @@ function renderProductsGrid() {
             <option value="8">8</option>
             <option value="9">9</option>
             <option value="10">10</option>
-          </select>
+          </select> 
         </div>
 
         ${product.extraInfoHTML()}
@@ -84,7 +84,7 @@ function renderProductsGrid() {
     </div>
     `;
   });
-
+//DOM
   document.querySelector('.js-products-grid').innerHTML = productsHTML;
 
     function updateCartQuantity() {
