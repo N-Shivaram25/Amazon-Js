@@ -24,11 +24,11 @@ export function renderPaymentSummary() {
   cart.forEach((cartItem) => {
     cartQuantity += cartItem.quantity;
   });
-
+//dd
   const paymentSummaryHTML = `
     <div class="payment-summary-title">
       Order Summary
-    </div>
+    </div> 
 
     <div class="payment-summary-row">
       <div>Items (${cartQuantity}):</div>
@@ -57,7 +57,6 @@ export function renderPaymentSummary() {
         $${formatCurrency(taxCents)}
       </div>
     </div>
-
     <div class="payment-summary-row total-row">
       <div>Order total:</div>
       <div class="payment-summary-money js-payment-summary-total">
@@ -98,3 +97,4 @@ export function renderPaymentSummary() {
       window.location.href = 'orders.html';
     });
 }
+///s
